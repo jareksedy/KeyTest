@@ -14,8 +14,7 @@ struct KeyView: View {
     
     var body: some View {
         VStack{
-            TextField("Enter your text", text: $key)
-                //.background(.blue.opacity(0.25))
+            TextField("Your text here...", text: $key)
                 .focused($focused)
                 .onKeyPress(characters: .alphanumerics) { press in
                     key += press.characters
