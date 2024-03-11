@@ -8,17 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showModal = false
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Spacer()
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background(Color(uiColor: .systemGray6))
+                .onTapGesture {
+                    showModal = true
+                }
         }
-        .padding()
+        .onAppear {
+            showModal = true
+        }
+        .sheet(isPresented: $showModal) {
+            KeyView(showModal: $showModal)
+                //.frame(maxWidth: .infinity, maxHeight: .infinity)
+                //.frame(height: 48)
+                .presentationDetents([.height(60)])
+                .presentationDragIndicator(.visible)
+                .presentationCornerRadius(12)
+        }
     }
-}
-
-#Preview {
-    ContentView()
 }

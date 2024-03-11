@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		CA846FBE2B9EF70F0015BE83 /* KeyTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA846FBD2B9EF70F0015BE83 /* KeyTestApp.swift */; };
-		CA846FC02B9EF70F0015BE83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA846FBF2B9EF70F0015BE83 /* ContentView.swift */; };
+		CA846FC02B9EF70F0015BE83 /* KeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA846FBF2B9EF70F0015BE83 /* KeyView.swift */; };
 		CA846FC22B9EF7100015BE83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA846FC12B9EF7100015BE83 /* Assets.xcassets */; };
 		CA846FC52B9EF7100015BE83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA846FC42B9EF7100015BE83 /* Preview Assets.xcassets */; };
 		CA846FCF2B9EF7100015BE83 /* KeyTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA846FCE2B9EF7100015BE83 /* KeyTestTests.swift */; };
 		CA846FD92B9EF7100015BE83 /* KeyTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA846FD82B9EF7100015BE83 /* KeyTestUITests.swift */; };
 		CA846FDB2B9EF7100015BE83 /* KeyTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA846FDA2B9EF7100015BE83 /* KeyTestUITestsLaunchTests.swift */; };
+		CA846FE82B9EFBEE0015BE83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA846FE72B9EFBEE0015BE83 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		CA846FBA2B9EF70F0015BE83 /* KeyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA846FBD2B9EF70F0015BE83 /* KeyTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyTestApp.swift; sourceTree = "<group>"; };
-		CA846FBF2B9EF70F0015BE83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA846FBF2B9EF70F0015BE83 /* KeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyView.swift; sourceTree = "<group>"; };
 		CA846FC12B9EF7100015BE83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA846FC42B9EF7100015BE83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CA846FCA2B9EF7100015BE83 /* KeyTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,7 @@
 		CA846FD42B9EF7100015BE83 /* KeyTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA846FD82B9EF7100015BE83 /* KeyTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyTestUITests.swift; sourceTree = "<group>"; };
 		CA846FDA2B9EF7100015BE83 /* KeyTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA846FE72B9EFBEE0015BE83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				CA846FBD2B9EF70F0015BE83 /* KeyTestApp.swift */,
-				CA846FBF2B9EF70F0015BE83 /* ContentView.swift */,
+				CA846FBF2B9EF70F0015BE83 /* KeyView.swift */,
+				CA846FE72B9EFBEE0015BE83 /* ContentView.swift */,
 				CA846FC12B9EF7100015BE83 /* Assets.xcassets */,
 				CA846FC32B9EF7100015BE83 /* Preview Content */,
 			);
@@ -257,8 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA846FC02B9EF70F0015BE83 /* ContentView.swift in Sources */,
+				CA846FC02B9EF70F0015BE83 /* KeyView.swift in Sources */,
 				CA846FBE2B9EF70F0015BE83 /* KeyTestApp.swift in Sources */,
+				CA846FE82B9EFBEE0015BE83 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
